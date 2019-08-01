@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {Route, Router, NavigationStart, NavigationEnd} from '@angular/router';
+import { Router, NavigationEnd} from '@angular/router';
 
 declare var $;
 

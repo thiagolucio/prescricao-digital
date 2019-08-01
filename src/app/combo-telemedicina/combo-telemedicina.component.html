@@ -1,0 +1,48 @@
+<section id="comboConsultas" class="m-auto">
+        <div class="container-fluid p-5">
+            <div class="jumbotron bg-btn-verde">
+                <form action="">
+                    <div class="form-row">
+                        <div class="col-md-3 h-100">
+                            <div class="form-group">
+                                <label for="inputEspecialidade" class="text-light">Especialidade</label>
+                                <input type="text" class="form-control form-control-lg" id="inputEspecialidade" placeholder="Cardiologia, Ortopedia ...">
+                            </div>
+                        </div>
+                        <div class="col-md-3 h-100">
+                            <div class="form-group">
+                                <label for="inputLocal" class="text-light">Data da Consulta</label>
+                                <input type="date" class="form-control form-control-lg" id="inputLocal" placeholder="Digite a Cidade">
+                            </div>
+                        </div>
+                        <div class="col-md-3 h-100">
+                            <div class="form-group">
+                                <label for="InputDataHora" class="text-light">Horário</label>
+                                <input type="time" class="form-control form-control-lg" id="InputDataHora" placeholder="Digite a hora desejada">
+                            </div>
+                        </div>
+                        <div class="col-md-2 h-100 text-center m-auto m-0">
+                            <button class="btn btn-info btn-block btn-lg p-4" type="button" data-toggle="modal" data-target="#exampleModal">Agendar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body text-center">
+                        <i class="far fa-grimace fa-4x"></i>
+                        <br><br>
+                        <h2>Pedimos desculpas pelo transtorno mas nossa Rede Credenciada ainda está em fase de Contratação.</h2>
+                        <br><br>
+                        <h3>Em breve enviaremos um email informando o início das atividades.</h3>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal"><i class="fas fa-times"></i> Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

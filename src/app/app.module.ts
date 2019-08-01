@@ -19,6 +19,7 @@ import { ParceirosFranquiasComponent } from './parceiros-franquias/parceiros-fra
 import { AreaAcionistasComponent } from './area-acionistas/area-acionistas.component';
 import { HeaderParceirosFranquiasComponent } from './header-parceiros-franquias/header-parceiros-franquias.component';
 import { ComboConsultasComponent } from './combo-consultas/combo-consultas.component';
+import { ComboTelemedicinaComponent } from './combo-telemedicina/combo-telemedicina.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { ComboConsultasComponent } from './combo-consultas/combo-consultas.compo
     AreaAcionistasComponent,
     HeaderParceirosFranquiasComponent,
     ComboConsultasComponent,
+    ComboTelemedicinaComponent,
   ],
   imports: [
     BrowserModule,
