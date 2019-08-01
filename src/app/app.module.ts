@@ -18,7 +18,6 @@ import { HeaderLaudosMedicosComponent } from './header-laudos-medicos/header-lau
 import { ParceirosFranquiasComponent } from './parceiros-franquias/parceiros-franquias.component';
 import { AreaAcionistasComponent } from './area-acionistas/area-acionistas.component';
 import { HeaderParceirosFranquiasComponent } from './header-parceiros-franquias/header-parceiros-franquias.component';
-import {HeaderAreaAcionistasComponent} from "./header-area-acionistas/header-area-acionistas.component";
 
 @NgModule({
   declarations: [
@@ -37,7 +36,6 @@ import {HeaderAreaAcionistasComponent} from "./header-area-acionistas/header-are
     HeaderLaudosMedicosComponent,
     ParceirosFranquiasComponent,
     AreaAcionistasComponent,
-    HeaderAreaAcionistasComponent,
     HeaderParceirosFranquiasComponent,
   ],
   imports: [

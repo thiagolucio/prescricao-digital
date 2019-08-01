@@ -114,21 +114,22 @@
     }
 
     //Classes de cor de texto que muda no javascript
-    #mainNav.navbar-cor-branca {
-      background-color: #2d645e!important;
-    }
+    // #mainNav.navbar-cor-branca {
+    //   background-color: #2d645e!important;
+    // }
+    
     #mainNav.navbar-cor-branca .navbar-nav > li > a,
     #mainNav.navbar-cor-branca .navbar-nav > li > a:focus  {
-      color: #FFFFFF!important;
+      color: #5BA399;
     }
 
     #mainNav.navbar-cor-branca .navbar-nav > li > a:hover,
     #mainNav.navbar-cor-branca .navbar-nav > li > a:focus:hover {
-      color: #000000!important;
+      color: #000000;
     }
 
     #mainNav.navbar-cor-preta .navbar-nav > li > a,
     #mainNav.navbar-cor-preta .navbar-nav > li > a:focus {
-      color: #000000!important;
+      color: #000000;
     }
   }

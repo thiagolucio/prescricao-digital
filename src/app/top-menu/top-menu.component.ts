@@ -19,9 +19,7 @@ export class TopMenuComponent implements OnInit {
         this.href = e.url;
         if (this.href == "/laudosMedicos"
           || this.href == "/consultasMedicas"
-          || this.href == "/medicamentos"
-          || this.href == "/parceirosFranquias"
-          || this.href == "/areaAcionistas") {
+          || this.href == "/medicamentos") {
           $("#mainNav").addClass("navbar-cor-branca");
         } else {
           $("#mainNav").removeClass("navbar-cor-branca");
@@ -42,7 +40,7 @@ export class TopMenuComponent implements OnInit {
       if ($("#mainNav").offset().top > 150) {
         $("#mainNav").addClass("navbar-shrink");
       } else {
-        $("#mainNav").removeClass("navbar-shrink");
+        $("#mainNav").removeClass("navbar-shrink"); 
       }
     };
     // Colapsar agora se a pagina nao estiver no topo
