@@ -1,0 +1,134 @@
+#mainNav {
+    border-color: rgba(34, 34, 34, 0.05);
+    background-color: white;
+    -webkit-transition: all .35s;
+    transition: all .35s;
+    font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  #mainNav .navbar-brand {
+    color: #5BA399;
+    font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+    color: #5BA399;
+  }
+
+  #mainNav .navbar-toggler {
+    font-size: 12px;
+    padding: 8px 10px;
+    color: #222222;
+  }
+
+  #mainNav  .navbar-toggler:focus,#mainNav  .navbar-toggler:hover {
+    text-decoration: none;
+    background: #5BA399;
+    -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      font-weight: 700;
+}
+
+  #mainNav .navbar-nav > li > a {
+    font-size: 0.8em;
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  #mainNav .navbar-nav > li {
+    border-right: 1px solid #cdcdcd;
+  }
+
+  #mainNav .navbar-nav > li:last-child {
+    border-right: none;
+  }
+
+  #mainNav .navbar-nav > li > a.active {
+    color: #5BA399 !important;
+    background-color: transparent;
+  }
+
+  #mainNav .navbar-nav > li > a.active:hover {
+    background-color: transparent;
+  }
+
+  #mainNav .navbar-nav > li > a,
+  #mainNav .navbar-nav > li > a:focus {
+    color: #222222;
+  }
+
+  #mainNav .navbar-nav > li > a:hover,
+  #mainNav .navbar-nav > li > a:focus:hover {
+    color: #5BA399;
+  }
+
+
+  @media (min-width: 992px) {
+    #mainNav {
+      border-color: transparent;
+      background-color: transparent;
+    }
+    #mainNav .navbar-brand {
+      color: fade(white, 70%);
+    }
+    #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+      color: #5BA399;
+    }
+    #mainNav .navbar-nav > li > a,
+    #mainNav .navbar-nav > li > a:focus {
+      color: #000000;
+      font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+      font-weight: 500;
+    }
+    #mainNav .navbar-nav > li > a:hover,
+    #mainNav .navbar-nav > li > a:focus:hover {
+      color: #428379!important;
+      font-weight: 700;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+    #mainNav.navbar-shrink {
+      border-color: rgba(34, 34, 34, 0.1);
+      background-color: #FFFFFF;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      color: #222222;
+    }
+    #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
+      color: #5BA399;
+    }
+    #mainNav.navbar-shrink .navbar-nav > li > a,
+    #mainNav.navbar-shrink .navbar-nav > li > a:focus {
+      color: #222222;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+    #mainNav.navbar-shrink .navbar-nav > li > a:hover,
+    #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
+      color: #5BA399!important;
+    }
+
+    //Classes de cor de texto que muda no javascript
+    #mainNav.navbar-cor-branca {
+      background-color: #2d645e!important;
+    }
+    #mainNav.navbar-cor-branca .navbar-nav > li > a,
+    #mainNav.navbar-cor-branca .navbar-nav > li > a:focus  {
+      color: #FFFFFF!important;
+    }
+
+    #mainNav.navbar-cor-branca .navbar-nav > li > a:hover,
+    #mainNav.navbar-cor-branca .navbar-nav > li > a:focus:hover {
+      color: #000000!important;
+    }
+
+    #mainNav.navbar-cor-preta .navbar-nav > li > a,
+    #mainNav.navbar-cor-preta .navbar-nav > li > a:focus {
+      color: #000000!important;
+    }
+  }

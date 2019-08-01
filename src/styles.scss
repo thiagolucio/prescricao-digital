@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+
+body, html {
+    font-family: 'Roboto', sans-serif;   
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font400Catamaran {font-weight: 400; font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';}
+.font500Catamaran {font-weight: 500; font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';}
+.font600Catamaran {font-weight: 600; font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';}
+.font700Catamaran {font-weight: 700; font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';}
+
+.f1em {font-size: 1em;}
+.f15em {font-size: 1.5em;}
+.f2em {font-size: 2em;}
+.f25em {font-size: 2.5em;}
+.f3em {font-size: 3em;}
+
+.textIndent40 {text-indent: 40px!important;}
+
+/* textos personalizados*/
+.text-verde {color: #5BA399 !important;}
+.text-verde:hover {color: rgb(50, 109, 101)!important;}
+
+.text-success { color: #38544D !important; }
+.text-lightgray {color: lightgray!important;}
+.text-gray {color: #6A6A69!important;}
+.text-graylight {color: gray!important;}
+
+.bg-transparent{background: transparent!important;}
+.bg-white {background: #FFFFFF;}
+.bg-green {background: #4AA49A;}
+.bg-green:hover {background: #2d645e;}
+.bg-gray {background: #ededed;}
+.bg-black {background: #000;}
+
+hr { 
+  display: block; height: 1px;
+  border: 0; border-top: 1px solid #6DBAAE;
+  margin: 1em 0; padding: 0; 
+}

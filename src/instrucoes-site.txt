@@ -1,0 +1,5 @@
+ Observações referentes a conversão com Angular (repetições, etc):
+
+ - Os headers (home, consultas médicas, telemedicina, medicamentos, laudos médicos, parceiros e franquias)
+ podem ser implementados em um único com repetições para as imagens e textos e links de rota dos botões "Saiba mais..."
+ 
